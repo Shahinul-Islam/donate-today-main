@@ -118,6 +118,28 @@ body {
   background-color: rgba(253, 157, 166, 0.1);
 }
 
+.special {
+  text-align: center;
+}
+.applications {
+  background-color: #fdaaaac0;
+  padding: 20px;
+  height: 40vh;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.application {
+  height: 100px;
+  width: 220px;
+}
+.apply-btn {
+  text-decoration: none;
+  background-color: white;
+  color: #ff5959;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
 .update {
   text-align: center;
 }
