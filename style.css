@@ -132,13 +132,13 @@ body {
 
 .email-section input,
 button {
-  margin-top: 90px;
+  margin-top: 60px;
+  padding: 15px;
 }
 
 .email-section input {
   background-color: lightgray;
   border: none;
-  padding: 6px;
   margin-right: 0;
   border-radius: 5px 0 0 5px;
 }
@@ -146,7 +146,19 @@ button {
   margin-left: -5px;
   border: none;
   background-color: #ff5959;
-  padding: 6px;
   color: white;
   border-radius: 0 5px 5px 0;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 0;
+}
+.footer-title {
+  color: #ff5959;
+}
+.footer p {
+  color: white;
 }
