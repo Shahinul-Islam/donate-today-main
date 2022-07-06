@@ -90,3 +90,22 @@ body {
   cursor: pointer;
   margin-top: 7px;
 }
+
+.donate-plan {
+  text-align: center;
+}
+.donate-plane-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.single-card {
+  height: 250px;
+  width: 350px;
+  border-radius: 5px;
+  text-align: left;
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: 0 10px;
+}
