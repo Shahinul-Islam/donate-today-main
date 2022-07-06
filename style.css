@@ -105,7 +105,48 @@ body {
   width: 350px;
   border-radius: 5px;
   text-align: left;
-  background-color: antiquewhite;
   padding: 20px;
   margin: 0 10px;
+}
+#color-one {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+#color-two {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+#color-three {
+  background-color: rgba(253, 157, 166, 0.1);
+}
+
+.update {
+  text-align: center;
+}
+
+.email-section {
+  background-color: #fff4d6;
+  height: 150px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.email-section input,
+button {
+  margin-top: 90px;
+}
+
+.email-section input {
+  background-color: lightgray;
+  border: none;
+  padding: 6px;
+  margin-right: 0;
+  border-radius: 5px 0 0 5px;
+}
+.email-section button {
+  margin-left: -5px;
+  border: none;
+  background-color: #ff5959;
+  padding: 6px;
+  color: white;
+  border-radius: 0 5px 5px 0;
 }
